@@ -1,0 +1,178 @@
+---
+- Meta:
+      Name: Ana Arribasplata
+      Location: Munich, Germany 80333
+      LinkedIn: linkedin.com/in/anaarribasplata/
+      Title: Software Engineer
+      Descs:
+          - |
+              As an individual who has spent the past two years working abroad, I have gained a diverse range 
+              of experiences and perspectives that have shaped my personal and professional growth. While I 
+              cherish the time I spent working in international settings and collaborating with people from 
+              diverse backgrounds, I am eager to return to the United States and continue pursuing my passion 
+              for Frontend Engineering. With a strong academic background in computer science and management 
+              engineering, coupled with extensive experience in cutting-edge technologies such as React Native, 
+              Typescript, Jest, GitLab, and GraphQL, I am confident that I have the skills and expertise to excel 
+              in the dynamic and innovative tech industry in the US. I am excited to leverage my unique perspective 
+              and global experiences to drive innovation and make a positive impact on the industry.
+          - |
+              As a highly skilled Frontend Engineer, I possess extensive experience in developing cutting-edge web 
+              and mobile applications using the latest tools and technologies. With a deep knowledge of React Native, 
+              Typescript, Jest, GitLab, GraphQL, and related frameworks, I am dedicated to delivering superior software 
+              solutions that meet and exceed customer expectations. My academic background includes a Master of Science 
+              in Management Engineering from Tufts University and a Bachelor of Science in Computer Science from the 
+              University of Massachusetts Lowell. I am a proactive and results-driven team player with excellent 
+              communication skills, always eager to take on new challenges and to continuously improve my abilities.
+
+# Damedic
+- Company: Damedic
+  Title: Frontend Engineer
+  Time: June 2022 - Present
+  Desc: DAMEDIC provides revolutionary billing services for hospitals - delivering optimal results in minimal time.
+- Company Project: Damedic
+  Tags:
+      [
+          PostgreSQL,
+          GraphQL,
+          Jest,
+          TypeScript,
+          Webpack,
+          React,
+          SCSS,
+          Yarn,
+          Redux,
+          Front-end,
+          JavaScript,
+          Cypress,
+          GitLab Pipelines,
+      ]
+  Desc:
+      Worked closely with product to come up with user friendly designs using the
+      latest technology.
+- Company Project: Damedic
+  Tags: [Front-end, React, SCSS, Yarn, Redux, JavaScript]
+  Desc:
+      Implemented a way for Medical Experts to add annotations to Doctors notes. By adding
+      annotation, medical experts reduced their time for closing a case by 5%.
+- Company Project: Damedic
+  Tags: [Webpack, React, JavaScript]
+  Desc:
+      Upgraded packages to have the code base updated. For instance migrating from react-router-dom v4
+      to v6.
+- Company Project: Damedic
+  Tags: [ReactJS, JavaScript, Jest, GitLab Pipelines]
+  Desc:
+      Implemented testing principles by migrating Cypress to the front-end repo which a GitLab
+      Pipeline will trigger after merging to dev. In addition, added a test using Jest for 85% of the
+      code base.
+- Company Project: Damedic
+  Tags: [Front-end, Redux]
+  Desc: Worked with third-party company to talk about a state management that will help with our needs.
+
+# Agrando
+- Company: Agrando
+  Title: Senior Frontend Engineer
+  Time: July 2021 - May 2022
+  Desc:
+      Agrando is an AgTech company from Munich and the reliable partner of the successful agriculture.
+      The combination of Germany's only independent online trading platform, exclusive market analyzes
+      and professional agricultural advice makes farmers, traders and manufacturers sustainably successful.
+- Company Project: Agrando
+  Tags:
+      [
+          GraphQL,
+          Jest,
+          TypeScript,
+          SCSS,
+          Yarn,
+          Front-end,
+          JavaScript,
+          Cypress,
+          GitLab Pipelines,
+          React Native,
+          Testflight,
+          Firebase,
+      ]
+  Desc: Published and deployed AgrandoPro on Android and iOS.
+- Company Project: Agrando
+  Tags: [Testflight]
+  Desc: Performed beta testing with Testflight and Android Beta Chanel releases.
+- Company Project: Agrando
+  Tags: [Jest]
+  Desc: Implemented a test-driven development with Jest.
+- Company Project: Agrando
+  Tags: [Firebase]
+  Desc:
+      Used Firebase's live database update notification to enable real-time messaging
+      with push notifications.
+- Company Project: Agrando
+  Tags: [GraphQl]
+  Desc: Retrived and made mutations to data using GraphQL and Redux toolkit query.
+
+# Paytronix!
+- Company: Paytronix
+  Title: Full Stack Developer
+  Time: April 2016 - June 2021
+  Desc:
+      Paytronix is a world-class Customer Experience Platform. By combining loyalty, CRM, Order & Delivery,
+      and AI-driven insights in one platform we’ve made it easy to create seamless experiences that trigger
+      repeat business and drive incremental revenue.
+- Company Project: Paytronix
+  Tags: [Back-end, SQL, Scala]
+  Desc:
+      Designed, developed, and maintained REST accessible endpoints in Scala to
+      support front-end React applications.
+- Company Project: Paytronix
+  Tags: [Front-end, Scala/Lift, Scala, JavaScript]
+  Desc: Improved customer-segmentation GUI with cleaner front end UX and back end code architecture
+- Company Project: Paytronix
+  Tags: [Front-end, React, JS]
+  Desc: Worked on new marketing campaign tool in React
+- Company Project: Paytronix
+  Tags: [SQL]
+  Desc: Responsible for defining new SQL tables structures, columns, stored
+      procedures, and data migrations.
+- Company Project: Paytronix
+  Tags: [React, Lift, JSP]
+  Desc: Collaborated with other teams to design and implement UI components in
+      React, Lift, or JSP.
+- Company Project: Paytronix
+  Tags: [React]
+  Desc: Created custom ReactJS components for an internal framework.
+- Company Project: Paytronix
+  Tags: [AWS tools, Mailgun]
+  Desc:
+      Set up Mailgun to communicate with a AWS Lambda function and add it to Paytronix's database to see which emails
+      have been bounced, received, or marked as spam.
+
+# Syntel
+- Company: Syntel
+  Title: Software Engineer
+  Time: June 2015 - April 2016
+  Desc:
+      Syntel helps global enterprises evolve the core by leveraging automation, scaled agile and cloud platforms
+      to build efficient application development and management, testing and infrastructure solutions.
+- Company Project: Syntel
+  Tags: [React, NodeJS]
+  Desc: Wrote RESTful Applications that returned the customers’ bank information
+      written in Node.
+- Company Project: Syntel
+  Tags: [Front-end]
+  Desc: Actively investigated interesting new tools and techniques.
+- Company Project: Syntel
+  Tags: [Front-end, React]
+  Desc:
+      Maintain ownership of the design throughout the Software Development cycle,
+      ensuring continuing updates to the design.
+
+# Education
+- Education: University of Massachusetts at Lowell
+  Location: Lowell, MA
+  Degree: Bachelor of Science
+  Major: Computer Science
+  Dates: 2011 - 2015
+- Education: Tufts University
+  Location: Medford, MA
+  Degree: Master of Science
+  Major: Engineering Management
+  Dates: 2019 - 2022

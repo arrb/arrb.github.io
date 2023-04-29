@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/arrb.github.io/static/css/main.89250d74.css",
+    "main.js": "/arrb.github.io/static/js/main.51763b06.js",
+    "static/js/787.28cb0dcd.chunk.js": "/arrb.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ana.png": "/arrb.github.io/static/media/ana.527d372e246b4c4f94a5.png",
+    "index.html": "/arrb.github.io/index.html",
+    "main.89250d74.css.map": "/arrb.github.io/static/css/main.89250d74.css.map",
+    "main.51763b06.js.map": "/arrb.github.io/static/js/main.51763b06.js.map",
+    "787.28cb0dcd.chunk.js.map": "/arrb.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89250d74.css",
+    "static/js/main.51763b06.js"
+  ]
+}
