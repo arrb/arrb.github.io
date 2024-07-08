@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/arrb.github.io/static/css/main.e138fffb.css",
-    "main.js": "/arrb.github.io/static/js/main.c2a53bcc.js",
-    "static/js/453.ed3810f9.chunk.js": "/arrb.github.io/static/js/453.ed3810f9.chunk.js",
-    "static/media/ana.png": "/arrb.github.io/static/media/ana.527d372e246b4c4f94a5.png",
-    "index.html": "/arrb.github.io/index.html",
-    "main.e138fffb.css.map": "/arrb.github.io/static/css/main.e138fffb.css.map",
-    "main.c2a53bcc.js.map": "/arrb.github.io/static/js/main.c2a53bcc.js.map",
-    "453.ed3810f9.chunk.js.map": "/arrb.github.io/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/static/css/main.e138fffb.css",
+    "main.js": "/static/js/main.696bc634.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/ana.png": "/static/media/ana.527d372e246b4c4f94a5.png",
+    "index.html": "/index.html",
+    "main.e138fffb.css.map": "/static/css/main.e138fffb.css.map",
+    "main.696bc634.js.map": "/static/js/main.696bc634.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e138fffb.css",
-    "static/js/main.c2a53bcc.js"
+    "static/js/main.696bc634.js"
   ]
 }
