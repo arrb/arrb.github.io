@@ -12,7 +12,7 @@ import FAB from '../FAB'
 import './styles.scss'
 
 const yaml = require('js-yaml')
-function Resume() {
+const Resume = () => {
     const [rawData, setRawData] = useState(null)
     const [resume, setResume] = useState<InfoType>()
     const [tagsToShow, setSelectTagsToShow] = useState<string[]>([])
@@ -21,7 +21,7 @@ function Resume() {
     const retrieveResume = () => {
         if (!rawData) {
             let client = new XMLHttpRequest()
-            client.open('GET', '/resume.yaml')
+            client.open('GET', `${process.env.PUBLIC_URL}/resume.yaml`)
             client.send()
             client.onreadystatechange = function () {
                 if (

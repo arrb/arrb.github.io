@@ -1,26 +1,30 @@
 .landing-wrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .pic-wrapper {
-    align-items: center;
     display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding-top: 2rem; /* Default padding for smaller screens */
+    box-sizing: border-box;
 }
 
 img {
     border: dotted 3px #7a808e;
-    border-top-left-radius: 37px 140px;
-    border-top-right-radius: 23px 130px;
-    border-bottom-left-radius: 110px 19px;
-    border-bottom-right-radius: 120px 24px;
+    border-radius: 15px;
     box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     height: auto;
-    margin-left: calc(25vw - 13em);
-    margin-right: calc(5vw + 3em);
-    max-width: 25rem;
-    min-width: 5rem;
+    width: 100%;
+    max-width: 20rem;
     object-fit: contain;
     transition: all 0.13s ease-in;
 }
@@ -31,108 +35,105 @@ img:hover {
 }
 
 .info-wrapper {
-    flex: 1;
-    margin-right: 2.5rem;
-    margin-top: 4rem;
-    width: 30%;
+    max-width: 40rem;
+    text-align: center;
+    margin: 0 1rem;
 }
 
 .text {
-    display: flex;
     font-family: 'Yanone Kaffeesatz', serif;
-    font-size: 100px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
 
-    .wrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
+.wrapper {
+    padding: 0 0.5rem;
+}
 
-        .letter {
-            transform: translateY(40%);
-        }
+.letter {
+    transform: translateY(40%);
+}
 
-        .shadow {
-            color: #999;
-            transform: scale(1, -1);
-        }
-    }
+.shadow {
+    color: #999;
+    transform: scale(1, -1);
 }
 
 .about-me {
-    padding-right: 8rem;
+    margin-bottom: 2rem;
 }
 
 .buttons-wrap-resume {
-    flex-flow: column;
     display: flex;
-    padding-right: 8rem;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media screen and (min-width: 200px) and (max-width: 719px) {
+.tags-button {
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 720px) {
     .landing-wrapper {
-        flex-direction: column;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .pic-wrapper {
+        margin-right: 2rem;
+        margin-bottom: 0;
+        padding-top: 0; /* Reset padding for larger screens */
+    }
+
+    .info-wrapper {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .text {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 719px) {
+    .text {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        padding: 0 0.2rem;
+    }
+
+    .about-me, .buttons-wrap-resume {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pic-wrapper {
+        padding-top: 3rem; /* Increased padding for smaller screens */
+    }
+}
+
+@media (max-width: 425px) { /* Additional media query for smaller devices like iPhone 12 Pro */
+    .pic-wrapper {
+        padding-top: 4rem; /* Increased padding for smaller screens */
     }
 
     img {
-        margin-left: calc(55vw - 13em);
-        margin-right: calc(5vw + 3em);
-        padding: 1rem;
-    }
-
-    .info-wrapper {
-        width: 100%;
-    }
-
-    .about-me {
-        display: flex;
-        flex-wrap: wrap;
-        padding-right: 0;
-    }
-
-    .buttons-wrap-resume {
-        padding-right: 0;
-    }
-
-    .text {
-        display: flex;
-        font-family: 'Yanone Kaffeesatz', serif;
-        font-size: 25px;
-
-        .wrapper {
-            .letter {
-                transform: translateY(40%);
-            }
-
-            .shadow {
-                transform: scale(1, -1);
-                color: #999;
-            }
-        }
+        max-width: 15rem; /* Ensure image scales down appropriately */
     }
 }
 
-@media screen and (min-width: 719px) and (max-width: 933px) {
-    .info-wrapper {
-        margin-top: 2rem;
+@media (max-width: 360px) { /* Specific adjustments for very small devices like Galaxy S8 */
+    .pic-wrapper {
+        padding-top: 5rem; /* Further increased padding for very small screens */
     }
 
-    img{
-        margin-left: 1rem;
-        width: 80%
-    }
-
-    .about-me {
-        padding-right: 0;
-        font-size: 15px;
-    }
-
-    .buttons-wrap-resume {
-        padding-right: 0;
-    }
-
-    .text {
-        display: flex;
-        font-family: 'Yanone Kaffeesatz', serif;
-        font-size: 25px;
+    img {
+        max-width: 12rem; /* Ensure image scales down appropriately */
     }
 }

@@ -17,11 +17,11 @@ function App() {
         },
         {
             path: '/404',
-            element: <NotFound/>
+            element: <NotFound />
         },
         {
             path: '*',
-            element: <Navigate replace to='/404'/>
+            element: <Navigate replace to='/404' />
         }
     ])
 
